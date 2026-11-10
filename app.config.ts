@@ -4,22 +4,41 @@ export type Feature = {
 };
 
 export const appConfig = {
-  name: "Your App",
-  description: "Describe your app in one sentence. Devin will fill this in.",
-  emoji: "🚀",
-  accent: "#7c3aed",
+  name: "Condomínio App",
+  description:
+    "Crie um sistema de condomínio, para gerenciar os custos do condomínio, condôminos, cobranças de condomínio, registros de despesas, relatórios, painéis de acompanhamento, registro de ocorrências.",
+  emoji: "🏢",
+  accent: "#0f766e",
   upcomingFeatures: [
     {
-      title: "Your first feature",
-      description: "What people will be able to do once it's built.",
+      title: "Cadastro de condôminos",
+      description:
+        "Cadastre e liste os moradores com unidade, telefone e e-mail.",
     },
     {
-      title: "Your second feature",
-      description: "Devin will write this list based on your app idea.",
+      title: "Registro de despesas",
+      description:
+        "Lance as despesas do condomínio com categoria, valor e data.",
     },
     {
-      title: "Your third feature",
-      description: "Each one is a good next prompt for Devin.",
+      title: "Cobranças mensais",
+      description:
+        "Gere a taxa mensal de cada unidade e marque como paga ou pendente.",
+    },
+    {
+      title: "Registro de ocorrências",
+      description:
+        "Moradores registram ocorrências e acompanham o status de cada uma.",
+    },
+    {
+      title: "Painel financeiro",
+      description:
+        "Veja receitas, despesas e inadimplência do mês em um só painel.",
+    },
+    {
+      title: "Relatórios mensais",
+      description:
+        "Gere um resumo mensal das finanças para imprimir ou exportar em CSV.",
     },
   ] satisfies Feature[],
 };
